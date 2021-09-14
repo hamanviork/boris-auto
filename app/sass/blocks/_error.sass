@@ -1,0 +1,33 @@
+.body-error
+    background-color: #00000081
+.over
+    background: rgba(0, 0, 0, 0.363)
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-image: url(../images/back.jpg)
+    background-size: cover
+    z-index: 3
+    height: 100%
+    background-repeat: no-repeat
+
+.error
+    text-align: center
+    position: relative
+    &-block
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+    &__title
+        z-index: 100
+        color: #fff
+        font-size: 55px
+    &__redirect
+        display: inline-block
+        color: #fff
+        z-index: 111111
+        font-size: 30px
+        text-decoration: none
